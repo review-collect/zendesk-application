@@ -21,7 +21,6 @@
     "scope": "data:read_write"
   },
   "defaultLocale": "en",
-  "marketingOnly": true,
   "private": false,
   "version": "1.0.0",
   "frameworkVersion": "2.0"
