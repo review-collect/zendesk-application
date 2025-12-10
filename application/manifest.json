@@ -1,0 +1,28 @@
+{
+  "name": "review-collect-zendesk",
+  "author": {
+    "name": "pumalicieux",
+    "email": "tool@review-collect.com"
+  },
+  "location": {
+    "support": {}
+  },
+  "parameters": [
+    {
+      "name": "token",
+      "type": "oauth"
+    }
+  ],
+  "oauth": {
+    "client_id": "zdg-review-collect",
+    "client_secret": "e441937857f013af3b5cc2a2d9ebce868b9d682ade654fb974ebb9634c3779cd",
+    "authorize_uri": "https://alatestreviews.zendesk.com//oauth/authorize",
+    "access_token_uri": "https://alatestreviews.zendesk.com//oauth/access_token",
+    "scope": "data:read_write"
+  },
+  "defaultLocale": "en",
+  "marketingOnly": true,
+  "private": false,
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}
